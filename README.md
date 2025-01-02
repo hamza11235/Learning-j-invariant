@@ -1,1 +1,1 @@
-# Learning-j-invariant
+# Learning the j-invariant
