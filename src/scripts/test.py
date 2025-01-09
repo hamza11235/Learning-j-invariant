@@ -3,7 +3,7 @@ from Dataset import*
 
 
 
-def Test(learned_params,net_apply, batch_size, n, lamb):
+def test(learned_params,net_apply, batch_size, n, lamb):
     
     """
     Testing learned parameters on unknown data

@@ -2,7 +2,7 @@ from utils import *
 from Dataset import*
 
 
-def NN(batch_size,steps,num_epochs,n,params, opt_init, opt_update, get_params,net_apply,lo):
+def train(batch_size,steps,num_epochs,n,params, opt_init, opt_update, get_params,net_apply,lo):
     
     """ Training function """
     
@@ -35,7 +35,7 @@ def NN(batch_size,steps,num_epochs,n,params, opt_init, opt_update, get_params,ne
 
 
 
-def NNmat(batch_size,steps,num_epochs,n,params, opt_init, opt_update, get_params,mats,net_apply,lo):
+def trainmat(batch_size,steps,num_epochs,n,params, opt_init, opt_update, get_params,mats,net_apply,lo):
     
     """ Slightly varied training function 1 """
     
@@ -66,7 +66,7 @@ def NNmat(batch_size,steps,num_epochs,n,params, opt_init, opt_update, get_params
     plt.show()
     return net_params,inputs,sl2ztr
 
-def NNin(batch_size,steps,num_epochs,n,params, opt_init, opt_update, get_params,net_apply,inputs,lo):
+def trainin(batch_size,steps,num_epochs,n,params, opt_init, opt_update, get_params,net_apply,inputs,lo):
     
     """ Slightly varied training function 2 """
     
